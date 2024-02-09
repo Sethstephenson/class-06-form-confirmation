@@ -56,7 +56,7 @@ $nav_cooking_class = 'active_page';
 
       <p>Interesting in taking one of our cooking classes? Let us know which classes and we'll send you some information!</p>
 
-      <form id="request-form" novalidate>
+      <form id="request-form" action = "confirm.php" method = "post" novalidate>
 
         <div class="form-label">
           <input type="checkbox" id="request-vegetarian" />
